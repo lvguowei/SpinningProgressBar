@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpinningProgressBar">
+        <attr name="srcImg" format="reference" />
+        <attr name="cycleDuration" format="integer" />
+        <attr name="clockwise" format="boolean" />
+        <attr name="mode" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="decelerate" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
