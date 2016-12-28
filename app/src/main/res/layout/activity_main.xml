@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context="com.guowei.lv.app.MainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,10 +24,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:background="@drawable/loading1"
                 app:clockwise="true"
                 app:cycleDuration="2000"
-                app:mode="linear"
-                app:srcImg="@drawable/loading1" />
+                app:mode="linear" />
 
         </RelativeLayout>
 
@@ -40,10 +41,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:background="@drawable/loading2"
                 app:clockwise="false"
                 app:cycleDuration="500"
-                app:mode="decelerate"
-                app:srcImg="@drawable/loading2" />
+                app:mode="decelerate" />
 
         </RelativeLayout>
 
@@ -61,13 +62,13 @@
             android:layout_weight="1">
 
             <com.guowei.lv.spinningprogressbarlib.SpinningProgressBar
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_centerInParent="true"
+                android:background="@drawable/loading3"
                 app:clockwise="true"
-                app:cycleDuration="500"
-                app:mode="linear"
-                app:srcImg="@drawable/loading3" />
+                app:cycleDuration="300"
+                app:mode="linear" />
 
         </RelativeLayout>
 
@@ -81,10 +82,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:background="@drawable/loading4"
                 app:clockwise="true"
                 app:cycleDuration="1000"
-                app:mode="decelerate"
-                app:srcImg="@drawable/loading4" />
+                app:mode="decelerate" />
 
         </RelativeLayout>
 
